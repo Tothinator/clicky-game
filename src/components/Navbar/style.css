@@ -1,0 +1,11 @@
+.navbar-brand:hover {
+    cursor: pointer;
+}
+
+.navbar {
+    color: white;
+}
+
+#navbar-break {
+    margin: 0 5px;
+}
