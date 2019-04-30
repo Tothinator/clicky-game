@@ -5,10 +5,12 @@ import "./style.css";
 function Hero() {
     return (
         <div className="jumbotron text-center">
-            {/* <video id="background-vid" autoPlay loop muted>
-                <source id="synthwave-loop" src={vid} type="video/mp4"></source>
-            </video> */}
+            <video id="hero-vid" autoPlay loop muted>
+                <source src={vid} type="video/mp4"></source>
+            </video>
             <div className="caption">
+                <h1>Clicky Game</h1>
+                <h3>Click on images to earn points, but don't click on any of them more than once!</h3>
                 <button className="btn btn-primary" data-toggle="modal" data-target="#winModal">Modal</button>
             </div>
         </div>

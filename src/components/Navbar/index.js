@@ -4,7 +4,7 @@ import "./style.css";
 function Navbar(props) {
 
     return (
-        <nav className="navbar navbar-dark bg-dark">
+        <nav className="navbar fixed-top navbar-dark bg-dark">
             <div className="container">
                 <nav className="navbar-brand">
                     <h1 href="/">Clicky Game</h1>

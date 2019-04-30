@@ -1,0 +1,45 @@
+.modal-content {
+    background-color: #020104;
+}
+
+.modal-header {
+    border-bottom: 1px solid #00ffff;
+    color: #39ff14;
+}
+
+.glow {
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 
+        0 0 10px rgba(255,255,255,1),
+        0 0px 20px #39ff14,
+        0 0px 0px #39ff14;
+    }
+    to {
+      text-shadow: 
+        0 0 10px rgba(255,255,255,1),
+        0 0px 20px #39ff14,
+        0 0px 30px #39ff14;
+    }
+  }
+
+.modal-body {
+    color: white;
+}
+
+.modal-footer {
+    border-top: 1px solid #00ffff;
+}
+
+.modal-footer button {
+    background-color: #ff00ff;
+}
+
+.modal-footer button:hover {
+    background-color: #39ff14;
+}
