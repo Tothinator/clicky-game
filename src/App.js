@@ -4,6 +4,7 @@ import Wrapper from "./components/Wrapper";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import GameCard from "./components/GameCard";
+import WinModal from "./components/WinModal"
 
 class App extends Component {
 
@@ -31,6 +32,7 @@ class App extends Component {
           increment={this.increment}
           checkWin={this.checkWin}
         />
+        <WinModal />
       </Wrapper>
     );
   }

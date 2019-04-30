@@ -1,0 +1,45 @@
+.jumbotron {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    padding: 0px;
+    font-family: "Cormorant SC";
+    box-shadow: 10px 5px 20px 2px lightslategrey;
+}
+
+.jumbotron .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: auto;
+}
+
+.jumbotron #background-vid {
+    background-size: cover;
+    position: relative;
+}
+
+.jumbotron .caption {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.jumbotron h1 {
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.jumbotron p {
+    font-size: 30px;
+}
+
+@media (min-width: 576px) {
+    .jumbotron {
+        padding: 0px;
+    }
+}
