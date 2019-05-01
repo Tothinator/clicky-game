@@ -1,7 +1,7 @@
 # Click Fury
 
 ## About
-A react application that will test your memory! Go to [https://github.com/Tothinator/clicky-game](https://github.com/Tothinator/clicky-game) and see how good your memory is!
+A react application that will test your memory! Go to [https://tothinator.github.io/clicky-game/](https://tothinator.github.io/clicky-game/) and see how good your memory is!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
