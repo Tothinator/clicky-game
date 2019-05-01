@@ -9,9 +9,9 @@ function Hero() {
                 <source src={vid} type="video/mp4"></source>
             </video>
             <div className="caption">
-                <h1>Clicky Game</h1>
+                <h1>Click Fury</h1>
                 <h3>Click on images to earn points, but don't click on any of them more than once!</h3>
-                <button className="btn btn-primary" data-toggle="modal" data-target="#winModal">Modal</button>
+                {/* <button className="btn btn-primary" data-toggle="modal" data-target="#winModal">Modal</button> */}
             </div>
         </div>
     );

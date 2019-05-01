@@ -1,31 +1,24 @@
-.card-container {
-    margin-bottom: 30px;
+.game-message {
+    padding-left: 70px;
 }
 
-.card {
-    height: 150px;
-    max-width: 300px;
-    margin: 0 10px 10px;
+.correct {
+    color: #39ff14;
+    text-shadow: 
+        0 0 10px rgba(255,255,255,1),
+        0 0px 20px #39ff14 !important;
 }
 
-.item {
-    cursor: pointer;
-}
-
-.item:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 30px #00ffff;
-    z-index: 1;
-    transition: 0.1s;
-}
-
-.shake {
+.wrong {
+    color: #ff0000;
+    text-shadow: 
+        0 0 10px rgba(255,255,255,1),
+        0 0px 20px #ff0000,
+        0 0px 30px #ff0000 !important;
     animation: shake 0.5s 0.0125s;
-    box-shadow: 0 0 30px #ff0000 !important;
-    z-index: 1;
 }
 
-@keyframes shake {
+@keyframes wrong {
     0% { transform: translate(1px, 1px) rotate(0deg); }
     10% { transform: translate(-1px, -2px) rotate(-1deg); }
     20% { transform: translate(-3px, 0px) rotate(1deg); }
@@ -38,3 +31,9 @@
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
+
+@media (max-width: 991px) {
+    .game-message{
+        padding-left: 0;
+    }
+}

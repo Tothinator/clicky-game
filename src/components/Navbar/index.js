@@ -1,4 +1,5 @@
 import React from "react";
+import MiddleTitle from "../MiddleTitle";
 import "./style.css";
 
 function Navbar(props) {
@@ -7,11 +8,11 @@ function Navbar(props) {
         <nav className="navbar fixed-top navbar-dark bg-dark">
             <div className="container">
                 <nav className="navbar-brand">
-                    <h1 href="/">Clicky Game</h1>
+                    <h1 href="/">Click Fury</h1>
                 </nav>
-                <nav className="text-center">
-                    <h2>Click an image to begin!</h2>
-                </nav>
+                <MiddleTitle 
+                    lose={props.lose}
+                />
                 <ul className="nav">
                     <li className="nav-item">
                         <h3>Score: {props.score}</h3>

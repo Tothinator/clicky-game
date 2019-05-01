@@ -23,3 +23,15 @@
 #navbar-break {
     margin: 0 5px;
 }
+
+@media (max-width: 991px) {
+    .navbar .container {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 560px) {
+    .navbar-brand {
+        margin-right: 0;
+    }
+}
