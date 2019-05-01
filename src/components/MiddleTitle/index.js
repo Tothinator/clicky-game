@@ -3,6 +3,14 @@ import "./style.css";
 
 function MiddleTitle(props) {
     
+    if (props.win) {
+        return (
+            <div className="text-center game-message win glow">
+                <h2>You Won!</h2>
+            </div>
+        )
+    }
+
     switch(props.lose) {
         case null:
             return (

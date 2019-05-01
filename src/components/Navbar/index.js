@@ -12,6 +12,7 @@ function Navbar(props) {
                 </nav>
                 <MiddleTitle 
                     lose={props.lose}
+                    win={props.win}
                 />
                 <ul className="nav">
                     <li className="nav-item">

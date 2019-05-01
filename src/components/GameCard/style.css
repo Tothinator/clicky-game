@@ -19,6 +19,13 @@
     transition: 0.1s;
 }
 
+.win-card {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px #39ff14;
+    z-index: 1;
+    transition: 0.1s;
+}
+
 .shake {
     animation: shake 0.5s 0.0125s;
     box-shadow: 0 0 30px #ff0000 !important;
